@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Products • TrailFit Outdoors</title>
+  <meta name="description" content="Browse our premium collection of hiking and camping gear. Lightweight, durable equipment for your next adventure.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">TrailFit Outdoors</div>
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Shop Products</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <section class="products-section">
+      <div class="page-header">
+        <h1>🎒 Premium Outdoor Gear</h1>
+        <p class="subline">Discover lightweight, durable equipment for your next adventure. Each item is carefully selected for performance and reliability on the trail.</p>
+        <div class="pricing-info">
+          <span class="pricing-badge">Transparent Pricing</span>
+          <span class="pricing-text">Free shipping on orders over $100 • Easy 30-day returns</span>
+        </div>
+      </div>
+      <div id="products" class="grid products"></div>
+    </section>
+
+    <aside class="summary">
+      <div class="summary-header">
+        <h3>🛒 Shopping Cart</h3>
+        <div class="cart-icon">
+          <span id="item-count">0</span>
+        </div>
+      </div>
+      
+      <div class="total" id="total">Total: $0.00</div>
+      <div class="subline" id="breakdown">Subtotal $0.00 • Tax (7%) $0.00 • Fee (1%) $0.00</div>
+      
+      <div class="btn-group">
+        <button class="btn" id="selectAll">🛍️ Select All</button>
+        <button class="btn secondary" id="clearAll">🗑️ Clear Cart</button>
+      </div>
+      
+      <div class="cart-features">
+        <div class="feature">
+          <span class="feature-icon">🚚</span>
+          <span>Free shipping on orders over $100</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">🔒</span>
+          <span>Secure checkout</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon">↩️</span>
+          <span>30-day returns</span>
+        </div>
+      </div>
+      
+      <p class="footer">Secure checkout with multiple payment options</p>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
